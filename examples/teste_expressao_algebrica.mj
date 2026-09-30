@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+        int c = 8;
+        int d = 3;
+
+        int resultado;
+
+        resultado = ((a + b) * (c - d)) / 2 + a * a;
+
+        System.out.println(resultado);
+    }
+}

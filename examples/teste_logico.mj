@@ -1,0 +1,22 @@
+class Main {
+    public static void main(String[] args) {
+        int idade = 20;
+        boolean ativo = true;
+
+        if (idade >= 18) {
+            System.out.println(idade);
+        }
+
+        if (idade == 20 && ativo) {
+            System.out.println(idade);
+        }
+
+        if (idade < 18 || !ativo) {
+            System.out.println(idade);
+        }
+
+        if (idade != 0) {
+            System.out.println(idade);
+        }
+    }
+}

@@ -1,0 +1,23 @@
+class Main {
+    public static void main(String[] args) {
+        int resultado;
+
+        resultado = 10 + 5;
+        System.out.println(resultado);
+
+        resultado = 10 - 3;
+        System.out.println(resultado);
+
+        resultado = 4 * 5;
+        System.out.println(resultado);
+
+        resultado = 20 / 4;
+        System.out.println(resultado);
+
+        resultado = 17 % 5;
+        System.out.println(resultado);
+
+        resultado = (10 + 5) * 2;
+        System.out.println(resultado);
+    }
+}

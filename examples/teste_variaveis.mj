@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        int idade = 20;
+        boolean ativo = true;
+        int resultado;
+
+        resultado = idade + 5;
+
+        System.out.println(resultado);
+    }
+}

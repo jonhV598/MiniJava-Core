@@ -1,0 +1,20 @@
+class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+        int c = 2;
+        int resultado;
+
+        resultado = a + b - c * a / b % c;
+
+        if (a >= b && b != c) {
+            resultado = a + b;
+        }
+
+        if (a < b || !(b == c)) {
+            resultado = a * c;
+        }
+
+        System.out.println(resultado);
+    }
+}

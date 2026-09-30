@@ -1,0 +1,13 @@
+class Principal {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int resultado = a + b * 2;
+
+        if (resultado > 30) {
+            resultado = resultado - 5;
+        } else {
+            resultado = resultado + 5;
+        }
+    }
+}
